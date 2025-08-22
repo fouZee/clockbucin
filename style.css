@@ -53,6 +53,8 @@ input#search-box {
   max-width: 400px;
   font-size: 16px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  background: transparent; /* transparan juga */
+  color: white; /* biar teksnya keliatan */
 }
 
 .form-icon {
@@ -73,6 +75,7 @@ input#search-box {
 
 .color-picker {
   margin-top: 30px;
+  overflow: hidden;
 }
 
 /* Animated Circles Background */
