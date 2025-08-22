@@ -202,3 +202,24 @@ input#search-box {
     border-radius: 50%;
   }
 }
+
+/* Hide search icon */
+input[type="search"],
+.search-icon {
+  opacity: 0;       /* bikin transparan */
+  pointer-events: none; /* biar gak bisa di-klik */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Hide color picker */
+input[type="color"] {
+  opacity: 0;       /* bikin transparan */
+  pointer-events: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
