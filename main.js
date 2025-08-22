@@ -43,7 +43,7 @@ function refreshTime() {
 }
 function getGreetText() {
   var typed = new Typed("#greet-text", {
-    strings: [greetingTextTo("Irma Sayangg ♡")], //Ganti nama disini
+    strings: [greetingTextTo("Irma Sayangg")], //Ganti nama disini
     loop: false,
     typeSpeed: 50, //Atur kecepatan ketik
     showCursor: false,
