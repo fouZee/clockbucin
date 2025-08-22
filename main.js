@@ -62,7 +62,7 @@ function greetingTextTo(i, delay = 100) {
   if (hrs < 10) greet = "Selamat Pagii, ^";
   else if (hrs >= 11 && hrs <= 15) greet = "Selamat Siang, ^";
   else if (hrs >= 15 && hrs <= 18) greet = "Selamat Sore, ^";
-   else if (hrs >= 18 && hrs <= 23) greet = "Selamat Malam, ^";
+  else if (hrs >= 18 && hrs <= 23) greet = "Selamat Malam, ^";
   else greet = "Selamat Tidurr, Have A Nice Dream, ^";
 
   return greet + delay + i;
