@@ -189,37 +189,3 @@ input#search-box {
   animation-duration: 11s;
 }
 
-@keyframes animate {
-  0% {
-    transform: translateY(0) rotate(0deg);
-    opacity: 1;
-    border-radius: 0;
-  }
-
-  100% {
-    transform: translateY(-1000px) rotate(720deg);
-    opacity: 0;
-    border-radius: 50%;
-  }
-}
-
-/* Hide search icon */
-input[type="search"],
-.search-icon {
-  opacity: 0;       /* bikin transparan */
-  pointer-events: none; /* biar gak bisa di-klik */
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-
-/* Hide color picker */
-input[type="color"] {
-  opacity: 0;       /* bikin transparan */
-  pointer-events: none;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
