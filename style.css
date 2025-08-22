@@ -20,7 +20,7 @@ body {
     background: #ffffff;
   }
   100% {
-    background: linear-gradient(to right, #2c5364, #203a43, #0f2027); /* balik ke dark gradient */
+    background: linear-gradient(to right, #101112); /* balik ke dark gradient */
   }
 }
 .area {
