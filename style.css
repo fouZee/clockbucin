@@ -75,7 +75,7 @@ input#search-box {
 
 .color-picker {
   margin-top: 30px;
-  overflow: hidden;
+  display: none
 }
 
 /* Animated Circles Background */
