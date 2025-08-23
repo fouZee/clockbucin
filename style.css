@@ -205,6 +205,22 @@ body {
   display: none
 }
 
+
+.spotify-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+}
+.spotify-container iframe {
+  width: 100%;
+  max-width: 400px; /* maksimal lebar di desktop */
+  height: 500px;    /* default tinggi */
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
 /* Animasi fade-in spotify*/
 @keyframes fadeIn {
   from {
@@ -215,22 +231,6 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.spotify-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  background: transparent;
-}
-.spotify-container iframe {
-  width: 100%;
-  max-width: 400px; /* maksimal lebar di desktop */
-  height: 500px;    /* default tinggi */
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
 
 /* Responsif untuk layar kecil (HP) */
