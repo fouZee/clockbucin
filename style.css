@@ -4,8 +4,11 @@
   margin: 0px;
   padding: 0px;
 }
-body {
+html, body {
   font-family: "Tangerine", serif;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 .context {
   width: 100%;
