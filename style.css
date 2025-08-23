@@ -218,11 +218,11 @@ body {
 }
 
 .spotify-container {
-  margin-top: 20px;       /* jarak dari teks */
   display: flex;
-  justify-content: flex-start; /* ratakan ke kiri */
-  width: 100%;
-  padding-left: 20px;     /* jarak dari tepi kiri */
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  background: #000000;
 }
 .spotify-container iframe {
   width: 100%;
