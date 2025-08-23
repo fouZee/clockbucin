@@ -210,12 +210,20 @@ body {
   justify-content: center;
   align-items: center;
   margin: 40px auto;
+  padding: 10px;
 }
 
 .spotify-container iframe {
-  width: 400px;   /* atur lebar */
+  width: 100%;
+  max-width: 400px;   /* atur lebar */
   height: 500px;  /* atur tinggi */
   border-radius: 16px; /* biar sudut agak rounded */
   box-shadow: 0 4px 20px rgba(0,0,0,0.4); /* kasih shadow biar floating */
 }
 
+/* Responsif untuk layar kecil (HP) */
+@media (max-width: 500px) {
+  .spotify-container iframe {
+    height: 380px; /* agak dipendekin biar pas */
+  }
+}
