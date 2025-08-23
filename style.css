@@ -1,5 +1,6 @@
 /* Base Styling */
 * {
+  height: 100%;
   margin: 0px;
   padding: 0px;
 }
@@ -22,6 +23,15 @@ body {
     }
   }
 }
+
+.container {
+  min-height: 100vh; /* supaya minimal setinggi layar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .area {
   background: #fff;
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
