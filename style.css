@@ -1,14 +1,10 @@
 /* Base Styling */
 * {
-  height: 100%;
   margin: 0px;
   padding: 0px;
 }
-html, body {
+body {
   font-family: "Tangerine", serif;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
 }
 .context {
   width: 100%;
@@ -26,15 +22,6 @@ html, body {
     }
   }
 }
-
-.container {
-  min-height: 100vh; /* supaya minimal setinggi layar */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .area {
   background: #fff;
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
@@ -229,13 +216,7 @@ html, body {
     transform: translateY(0);
   }
 }
-.spotify-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px auto;
-  padding: 10px;
-}
+
 
 .spotify-container iframe {
   width: 100%;
