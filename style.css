@@ -240,8 +240,4 @@ body {
   }
 }
 
-iframe[src*="spotify"] {
-    background: transparent !important;
-    border: none !important;
-}
 
