@@ -171,7 +171,9 @@ body {
   & input {
     font-size: 1.5em;
     padding: 0.5em 0.5em 0.5em 2em;
-    width: 399px;
+    width: 100%;
+    max-width: 399px;
+    box-sizing:  border-box;
     border-radius: 1em;
     border: none;
     background: transparent;
@@ -196,8 +198,8 @@ body {
   }
   & .form-icon {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 5px;
+    left: 5px;
   }
 }
 
@@ -233,11 +235,15 @@ body {
   }
 }
 
-/* Responsif untuk layar kecil (HP) */
 @media (max-width: 500px) {
+  .context h1 {
+    font-size: 2.2em; /* biar greeting ga terlalu gede */
+  }
   .spotify-container iframe {
-    height: 380px; /* agak dipendekin biar pas */
+    height: 380px; /* biar ga kepanjangan */
+    max-width: 100%; /* full width di hp */
+  }
+  .form-input input {
+    font-size: 1.2em;
   }
 }
-
-
