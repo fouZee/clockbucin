@@ -216,8 +216,8 @@ body {
 }
 .spotify-container iframe {
   width: 100%;
-  max-width: 400px; /* maksimal lebar di desktop */
-  height: 500px;    /* default tinggi */
+  max-width: 350px; /* maksimal lebar di desktop */
+  height: 420px;    /* default tinggi */
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
