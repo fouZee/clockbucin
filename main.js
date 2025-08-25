@@ -1,6 +1,6 @@
 $(function () {
   init();
-  $(".area, .text-wrapper").on("contextmenu", (e) => {
+  $(".area, .text-wrapper, .spotify-container").on("contextmenu", (e) => {
     showColorPicker(e.clientX, e.clientY);
     return false;
   });
